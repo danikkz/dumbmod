@@ -1,0 +1,36 @@
+name: widive reconstructor
+description: t3 to better t3 reconstructor
+type: Reconstructor
+size: 4
+upgrades: [
+[
+fortress, artillery-router
+]
+]
+constructTime: 900 /*aka 15 secs*/
+requirements: [
+routeur/50
+copper/550
+lead/600
+silicon/340
+thorium/300
+surge-alloy/50
+]
+category: units
+consumes: {
+power: 4 /*aka 4*60=240*/
+items: {
+items: [
+silicon/450
+routeur/101
+graphite/100
+surge-alloy/150
+plastanium/45
+]
+}
+}
+hasItems: true
+hasPower: true
+solid: true
+breakable: true
+buildVisibility: shown

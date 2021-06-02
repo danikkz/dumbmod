@@ -1,0 +1,36 @@
+name: reconstructive reconstructor
+description: reconstructs flares into flying routers. could also be named distributive reconstructor (bcoz its a router) but no. Units that come from here are new tier - t2 but only after surge. they arent really op bcoz of it.
+type: Reconstructor
+size: 3
+upgrades: [
+[
+flare, flying-router
+]
+[
+dagger, walking-router
+]
+]
+constructTime: 600
+requirements: [
+routeur/1
+copper/150
+lead/125
+silicon/85
+]
+category: units
+consumes: {
+power: 3
+items: {
+items: [
+silicon/40
+routeur/1
+graphite/30
+]
+}
+}
+hasItems: true
+hasPower: true
+solid: true
+breakable: true
+buildVisibility: shown
+/*i think i must do something with this, maybe a buff to flying router; nvm im buffing it. with 2 guns now.*/
