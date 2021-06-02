@@ -1,0 +1,25 @@
+name: routeur generator
+description: one of the uses of universal routeur is obvsly generating power. This gen uses one routeur every 6 secs and generates a lot of power. Sadly, requires phase so cant be used as free starter energy. While burning, routeur generates something like protecting aura that hardens gen a lot.
+type: BurnerGenerator
+size: 2
+hasPower: true
+hasItems: true
+health: 2500
+itemDuration: 360
+powerProduction: 8
+consumes: {
+items: {
+items: [
+routeur/1
+]
+}
+}
+requirements: [
+lead/400
+silicon/350
+phase-fabric/45
+]
+category: power
+solid: true
+buildVisibility: shown
+breakable: true
