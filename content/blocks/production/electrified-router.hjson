@@ -1,0 +1,29 @@
+name: electrified router
+type: GenericSmelter
+size: 1
+health: 500
+category: crafting
+hasPower: true
+hasLiquids: true
+hasItems: true
+solid: true
+description: can be used to make some stuff by routing it thru it
+consumes: {
+power: 5
+liquid: routanium/0.084
+items: {
+items: [
+crushed-router/3
+]
+}
+}
+requirements: [
+silicon/50
+copper/150
+phase-fabric/25
+surge-alloy/50
+lead/200
+]
+craftTime: 166.7
+outputItem: routeur/3
+/*buff crafting speed*/
