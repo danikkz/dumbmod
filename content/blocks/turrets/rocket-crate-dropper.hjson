@@ -1,0 +1,43 @@
+name: rocket crate dropper
+description: as the title says, it drops crates with rockets.
+size: 3
+type: itemTurret
+reloadTime: 100 /*aka 1.5 secs*/
+
+
+ammoTypes: {
+
+copper: {
+type: ArtilleryBulletType
+damage: 10
+splashDamage: 30
+splashDamageRadius: 16 /*aka 2 blocks*/
+lifetime: 40
+speed: 4 /*aka 3*40:8=15*/
+sprite: lol-routerbig
+despawnEffect: "nuclearShockwave"
+bulletWidth: 12
+bulletHeight: 12
+bulletShrink: 0
+collidesGround: false
+collidesAir: true
+fragBullets: 8
+
+fragBullet: {
+type: MissileBulletType
+damage: 85
+splashDamage: 50
+splashDamageRadius: 24 //3 blocks
+speed: 2
+lifetime: 120
+homingPower: 2
+homingRange: 40 //5
+}
+}
+}
+category: turret
+targetGround: true
+targetAir: true
+health: 650
+buildVisibility: shown
+range: 240/*30*/

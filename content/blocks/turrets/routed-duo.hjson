@@ -1,0 +1,28 @@
+name: routed duo
+description: just a duo that got routed. Nothing to see here. stupidly op. Uses the magic of router to turn copper into routers.
+size: 1
+type: itemTurret
+reloadTime: 30 /*aka 0.5 secs*/
+ammoTypes: {
+copper: {
+type: BasicBulletType
+damage: 10
+splashDamage: 30
+splashDamageRadius: 16 /*aka 2 blocks*/
+lifetime: 40
+speed: 4 /*aka 3*40:8=15*/
+sprite: router
+bulletWidth:5
+bulletHeight:5
+bulletShrink: -2
+collides: true
+collidesAir: true
+}
+}
+/* dont dorget to add frag, it would be really cool!*/
+category: turret
+targetGround: true
+targetAir: true
+health: 650
+buildVisibility: shown
+range: 120 /*aka 120:8=15*/
