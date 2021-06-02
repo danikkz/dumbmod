@@ -1,0 +1,16 @@
+type: BasicBulletType
+lifetime: 6.69
+speed: 3
+damage: 30.69
+splashDamage: 30.69
+splashDamageRadius: 3
+bullletSprite: mindustry-router
+bulletWidth: 6.69
+bulletHeight: 6.69
+bulletShrink: -2
+ammoMultiplier: 2
+collides: true
+collidesAir: true
+fragBullets: 3
+fragVelocityMin: 0.5
+fragVelocityMax: 2
