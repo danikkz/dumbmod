@@ -1,0 +1,36 @@
+name: flying router
+health: 750
+flying: true
+description: just a flying router with guns, nothing to see here
+speed: 2.5
+type: flying
+targetAir: true
+targetGround: true
+range: 120 /*aka 120:8=15*/
+weapons: [ 
+{
+name: shooting-router 
+mirror: true
+reload: 34 /*aka 34:60=0.566 secs; might be buffed tho*/
+y: 5
+x: 4
+shootSound: laser
+rotate: true
+bullet: {
+name: flyrouter-bullet
+type: BasicBulletType
+damage: 10
+splashDamage: 30
+splashDamageRadius: 16 /*aka 2 blocks*/
+lifetime: 40
+speed: 3 /* aka 40*3:8=15 tiles*/
+/*may have to add bulletSprite here. mod-sprite*/
+bulletWidth:5
+bulletHeight:5
+bulletShrink: -2
+collides: true
+collidesAir: true
+}
+}
+]
+/*may buff its range but idk; gonna add second weapon for better sprite; it looks kinda h but mirror mode mirrored sprite too.*/

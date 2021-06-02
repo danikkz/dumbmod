@@ -1,0 +1,48 @@
+name: artillery router
+description: aka router fortress. is the first t3 of this mod, made from t3 too. kinda h but atleast op. kinda weak at armor cuz stronk weapon. its too op
+flying: false
+targetAir: false
+targetGround: true
+health: 500
+type: mech
+speed: 0.75
+range: 200 /*aka 200:8=25 tiles*/
+weapons: [
+{
+name: artirouter
+mirror: true
+x: -6
+y: 0
+shootSound: artillery
+rotate: false
+reload: 60
+bullet: {
+name: h
+type: ArtilleryBulletType
+damage: 30
+splashDamage: 60
+splashDamageRadius: 32 /*aka 4 blocks*/
+speed: 2
+lifetime: 110 /*aka 27.5 blocks (yes, is stolen from gold mod)*/
+collides: true
+width: 12
+height: 12
+sprite: router
+fragBullet: {
+type: ArtilleryBulletType
+damage: 30
+splashDamage: 60
+splashDamageRadius: 16 /*aka 2 blocks*/
+speed: 2
+lifetime: 10 /*aka 2.5 blocks*/
+collides: true
+width: 12
+height: 12
+sprite: router
+}
+fragBullets: 6
+fragVelocityMin: 0.4
+fragVelocityMax: 1.2
+}
+}
+]

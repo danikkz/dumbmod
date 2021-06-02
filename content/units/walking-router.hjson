@@ -1,0 +1,34 @@
+name: walking router
+description: just a walkin router nothing special. shoots a slightly homing missile with huge splash area and damage. weakly armored
+type: mech
+flying: false
+health: 300
+targerAir: true
+targetGround: true
+range: 160 /*aka 20 blocks*/
+speed: 1.5
+weapons: [
+{
+name: router-rocketeer
+mirror: true
+x: 6
+y: 3
+shootSound: "pew" /*idk*/
+rotate: false
+reload: 60
+bullet: {
+name: router-missile
+type: MissileBulletType
+damage: 10
+splashDamageRadius: 48 /*aka 6 blocks, might get buff*/
+splashDamage: 50 /*possibly a nerf here, OR nerf for hp... no*/
+speed: 3
+lifetime: 54 /*aka 3*54:8=20,25*/
+bulletWidth: 5
+bulletHeight: 6
+bulletShrink: 0
+collides: true
+collidesAir: true
+}
+}
+]

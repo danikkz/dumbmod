@@ -1,0 +1,35 @@
+name: unknown router
+description: im just too lazy to think of a name; made out of horizon. last time i just paste artillery router stats herr bcoz i got veeeeryy lazy. remember, this mod is a joke. heavily armored cuz of close attack range
+flying: true
+targetAir: false
+targetGround: true
+health: 600
+type: flying
+speed: 2
+range: 8 /* 1 block*/
+weapons: [
+{
+name: bombrouter
+mirror: false
+splashDamage: 30
+splashDamageRadius: 8
+x: 0
+y: 0
+shootSound: pew
+rotate: false
+inaccuracy: 40
+bullet: {
+name: bomb
+type: BombBulletType
+damage: 60
+speed: 0
+lifetime: 30 /* half a second*/
+collides: false
+width: 12
+height: 12
+sprite: router
+status: blasted
+statusDuration: 60 /*fully copied from gold horizon lol*/
+}
+}
+]

@@ -1,0 +1,34 @@
+name: spooder rout
+description: spooder but router
+flying: false
+targetAir: false
+targetGround: true
+health: 600
+type: legs
+speed: 0.5
+legLength: 32
+hovering: true
+range: 32
+legCount: 6
+weapons: [
+{
+name: oof
+mirror: true
+x: -3
+y: 3
+shootSound: flame
+rotate: true
+reload: 10
+bullet: {
+name: kek
+type: SapBulletType
+damage: 35
+lifetime: 35 /*aka 0.5556 secs*/
+collides: true
+collidesAir: true
+width: 1
+length: 32 /*aka 4 tiles*/
+sprite: router
+}
+}
+]
